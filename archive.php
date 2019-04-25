@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-    sdfslkdflskd;j
-    <section id="content" role="main">
+        <section id="content" role="main">
         <header class="header">
             <h1 class="entry-title"><?php
                 if (is_day()) {
