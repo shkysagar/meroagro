@@ -1,17 +1,10 @@
+<!DOCTYPE html>
 <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
-
-
 <head>
-
     <meta charset="utf-8">
-
-
     <title>Mero Agro Pvt. Ltd.</title>
-
     <meta name="description" content="">
-
     <meta name="Keywords" content=""/>
-
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -19,35 +12,17 @@
     <meta name="yandex-verification" content="ab70cd3484772928"/>
     <meta name="msvalidate.01" content="E308A7BC9961F70D39DE98938360C8C1"/>
     <meta name="google-site-verification" content="A_pBBGugqYpFXvIcXqI1gXhjp_OxJ8oX26PifhW2ivs"/>
-    <meta name="norton-safeweb-site-verification"
-          content="4dhlicihpmfw-jh6o12ns0fo4t-l1rbgi9384lvnmi6qvotvj7qw1dmmedfwu-zlg3agdxpc9lopirjpx92ox-bbzcroy55d0qqnch0xouw3qqjegy-j59--2vq917op"/>
+    <meta name="norton-safeweb-site-verification" content="4dhlicihpmfw-jh6o12ns0fo4t-l1rbgi9384lvnmi6qvotvj7qw1dmmedfwu-zlg3agdxpc9lopirjpx92ox-bbzcroy55d0qqnch0xouw3qqjegy-j59--2vq917op"/>
 
 
-    <link href="<?= get_template_directory_uri(); ?>/css/flexslider.min.css" rel="stylesheet" type="text/css"
-          media="all"/>
-
-    <link href="<?= get_template_directory_uri(); ?>/css/line-icons.min.css" rel="stylesheet" type="text/css"
-          media="all"/>
-
-    <link href="<?= get_template_directory_uri(); ?>/fonts/font-awesome/css/font-awesome.css" rel="stylesheet"
-          type="text/css"
-
-          media="all"/>
-
-    <link href="<?= get_template_directory_uri(); ?>/css/elegant-icons.min.css" rel="stylesheet" type="text/css"
-          media="all"/>
-
-    <link href="<?= get_template_directory_uri(); ?>/css/lightbox.min.css" rel="stylesheet" type="text/css"
-          media="all"/>
-
-    <link href="<?= get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"
-          media="all"/>
-
+    <link href="<?= get_template_directory_uri(); ?>/css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="<?= get_template_directory_uri(); ?>/css/line-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="<?= get_template_directory_uri(); ?>/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="<?= get_template_directory_uri(); ?>/css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="<?= get_template_directory_uri(); ?>/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="<?= get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="<?= get_template_directory_uri(); ?>/css/theme.css" rel="stylesheet" type="text/css" media="all"/>
-
-
-    <link href="<?= get_template_directory_uri(); ?>/js/magnific-popup/magnific-popup.css" rel="stylesheet"
-          type="text/css"/>
+    <link href="<?= get_template_directory_uri(); ?>/js/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
 
 
     <!-- owl.carousel CSS
