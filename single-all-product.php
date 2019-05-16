@@ -59,8 +59,7 @@ get_header(); ?>
                                 <div class="">
                                     <div class="item-inner">
                                         <a href="<?php the_permalink(); ?>">
-                                            <img alt="<?php the_title(); ?>"
-                                                 src="<?php the_post_thumbnail($_page->ID, 'thumbnail'); ?>"/>
+                                            <?php the_post_thumbnail($_page->ID, 'thumbnail'); ?>
                                         </a>
                                         <div class=" post-title">
                                             <h2><?php the_title(); ?></h2>
