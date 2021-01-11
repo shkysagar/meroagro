@@ -34,16 +34,17 @@ get_header(); ?>
 
                         <div class="col-md-4 col-sm-6 blog-masonry-item">
                             <div class="item-inner">
-                               <div class="post-title">
-                                <a class="image-popup-no-margins" href="<?php the_cfc_field('agritoolsimage', 'agri-image', false, $key); ?>"
-                                   title="">
-                                            <img alt="Blog Preview"
-                                                 src="<?php the_cfc_field('agritoolsimage', 'agri-image', false, $key); ?>"/></a>
+                                <div class="post-title">
+                                    <a class="image-popup-no-margins"
+                                       href="<?php the_cfc_field('agritoolsimage', 'agri-image', false, $key); ?>"
+                                       title="">
+                                        <img alt="Blog Preview"
+                                             src="<?php the_cfc_field('agritoolsimage', 'agri-image', false, $key); ?>"/></a>
 
-                                            <h2><?php the_cfc_field('agritoolsimage', 'agri-image-title', false, $key); ?></h2>
-                                            <a class="expand"
-                                               href="#image-<?php the_cfc_field('agritoolsimage', 'agri-image', false, $key); ?>"></a>
-                                   </div> 
+                                    <h2><?php the_cfc_field('agritoolsimage', 'agri-image-title', false, $key); ?></h2>
+                                    <a class="expand"
+                                       href="#image-<?php the_cfc_field('agritoolsimage', 'agri-image', false, $key); ?>"></a>
+                                </div>
                             </div>
                         </div><!--end of individual post-->
                     <?php } ?>

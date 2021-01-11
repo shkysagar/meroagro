@@ -5,11 +5,8 @@
     <section class="hero-slider">
         <ul class="slides text-center">
             <?php
-
             $post_meta_array = get_post_meta($post->ID, "wpcf-sliderimage");
-
             foreach ($post_meta_array as $post_meta) {
-
                 ?>
                 <li class="overlay">
                     <div class="background-image-holder parallax-background">
@@ -17,9 +14,7 @@
                     </div>
                 </li>
             <?php }
-
             ?>
-
         </ul>
         <div class="overlay-banner">
             <div class="text-center" style="width: 470px;">
@@ -42,7 +37,6 @@
             <img class="background-image" alt="Background Image"
                  src="<?= get_template_directory_uri(); ?>/img/introduction_bg.jpg">
         </div>
-
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
@@ -51,26 +45,16 @@
                     <h5>DISTRIBUTORS AND FARMERS across DIFFERENT LEVELs</h5>
                 </div>
             </div>
-
             <div class="row">
                 <div class="service-sectiona">
-
-
                     <?php
-
                     $categories = get_terms('product-cat', array(
                         'orderby' => 'count',
                         'hide_empty' => 0,
                         'parent' => 0
                     ));
-
-
                     foreach ($categories as $term) :
-
-
                         ?>
-
-
                         <div class="col-md-3">
                             <div id="hearo" class="box overlay">
                                 <img src="<?php the_field('category_image', 'product-cat_' . $term->term_id); ?>"
@@ -79,7 +63,6 @@
                                     <h1><?php echo $term->name; ?></h1>
                                     <!--                                    <p class="hidden">--><!--...</p>-->
                                     <?php
-
                                     $args = array(
                                         'post_type' => 'all-product',
                                         'tax_query' => array(
@@ -92,7 +75,6 @@
                                         ),
                                     );
                                     $query = get_posts($args);
-
                                     $post_id = $query[0]->ID;
                                     if ($term->term_id == 13) {
                                         $post_id = 149;
@@ -101,7 +83,6 @@
                                     <a href="<?php echo get_permalink($post_id); ?>"
                                        class="btn btn-primary btn-filled btn-xs">Read more</a>
                                 </div>
-
                             </div>
                         </div>
                     <?php endforeach;
@@ -128,7 +109,8 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
                     <div id="heroasd" class="feature-video">
-                        <div class="feature-main" style="background: url('<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>') center no-repeat; background-size: cover;">
+                        <div class="feature-main"
+                             style="background: url('<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>') center no-repeat; background-size: cover;">
 
                         </div>
                     </div>

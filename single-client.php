@@ -1,7 +1,5 @@
 <?php get_header(); ?>
     <div class="main-container">
-
-
     <section class="about-content">
         <div class="container">
             <div class="row">
@@ -13,15 +11,12 @@
                         </div>
                         <br/>
                         <br/>
-
-
                         <?php
                         $id = get_the_id();
                         $post = get_post($id);
                         $content = apply_filters('the_content', $post->post_content);
                         echo $content;
                         ?>
-
                     </div>
                 </div>
             </div>

@@ -11,20 +11,19 @@
                             <div class="icon-box">
                                 <i class="fa fa-map-marker fa-2x"></i>
                             </div>
-                            <h2><span>Shree Krishna Sadan 7th floor</span></h2>
+                            <h2><span>Old Baneshwor, Kumari Complex</span></h2>
                         </div>
                         <div class="col-md-4">
                             <div class="icon-box">
                                 <i class="fa fa-phone fa-2x"></i>
                             </div>
-                            <h2>Call <span>+977-1-4786329</span></h2>
+                            <h2>Call <span>+977-1-4492285/4470092</span></h2>
                         </div>
                         <div class="col-md-4">
                             <div class="icon-box">
                                 <i class="fa fa-envelope fa-2x"></i>
                             </div>
-                            <h2>Mail <span><a
-                                            href="mailto:info@meroagro.com">info@meroagro.com</a></span>
+                            <h2>Mail <span><a href="mailto:info@meroagro.com">info@meroagro.com</a></span>
                             </h2>
                         </div>
                     </div>
@@ -45,10 +44,10 @@
                 </div>
                 <div class="footer-off-info pull-left">
                     <h4>Mero Agro Pvt. Ltd.</h4>
-                    <p style="text-left">Shree Krishna Sadan 7th floor,<br/>
-                        New Baneshwor, Kathmandu, Nepal <br/>
+                    <p style="text-left">Kumari Complex, Old Baneshwor,<br/>
+                         Kathmandu, Nepal <br/>
                         Post box No:11887<br/>
-                        Call: +977-1-4786329<br/>
+                        Call: 01-4492285, 4470092<br/>
                         mail: <a href="mailto=info@meroagro.com">info@meroagro.com</a>
                     </p>
                 </div>
